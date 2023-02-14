@@ -54,7 +54,7 @@ def get_last_attention_map(attentions):
     h_featmap = 14 * 2
     patch_size = 16
 
-    th_attn = th_attn.reshape(nh, w_featmap // 2, h_featmap // 2).float()
+    # th_attn = th_attn.reshape(nh, w_featmap // 2, h_featmap // 2).float(/)
 
     # interpolate
     th_attn = (

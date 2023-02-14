@@ -1,6 +1,6 @@
 # Visualizing Transformers for Breast Histopathology
 
-This repository contains code for [Visualizing Transformers for Breast Histopathology](https://drive.google.com/file/d/17HaJxCmchwcg4xLCqWnTUcLywWJlF4tj/view?usp=sharing). This work was completed as part of CPSC 482: Current Topics in Applied Machine Learning. 
+This repository contains code for [Visualizing Transformers for Breast Histopathology](https://drive.google.com/file/d/17HaJxCmchwcg4xLCqWnTUcLywWJlF4tj/view?usp=sharing). This work was completed as part of CPSC 482: Current Topics in Applied Machine Learning.
 
 ## Abstract
 
@@ -11,7 +11,7 @@ This repository contains code for [Visualizing Transformers for Breast Histopath
 1. Clone the repository.
 
 ```
-$ git clone https://github.com/jaketae/vit-breast-cancer.git
+$ git clone https://github.com/MLExpertBH0915/BH-breast-cancer.git
 ```
 
 2. Create a Python virtual enviroment and install package requirements.
@@ -22,7 +22,7 @@ $ python -m venv venv
 $ pip install -r requirements.txt
 ```
 
-3. To train a model, run `python train.py`; for evaluation, `python evaluate.py` with appropriate flags. For instance, 
+3. To train a model, run `python train.py`; for evaluation, `python evaluate.py` with appropriate flags. For instance,
 
 ```
 $ CUDA_VISIBLE_DEVICES=1 python evaluate.py --device cuda --checkpoint checkpoints/vit_freeze
@@ -45,7 +45,6 @@ $ unzip breast-histopathology-images.zip -d raw
 ## Training
 
 To evaluate a model checkpoint, run [`train.py`](train.py). The full list of supported arguments are shown below.
-
 
 ```
 $ python train.py -h
@@ -103,7 +102,6 @@ If CUDA is not available, you can also set the `device` flag to `cpu`.
 - [`timm`](https://github.com/rwightman/pytorch-image-models)
 - [DINO](https://github.com/facebookresearch/dino)
 - [jeonsworld's ViT notebook](https://github.com/jeonsworld/ViT-pytorch/blob/main/visualize_attention_map.ipynb)
-
 
 ## License
 
