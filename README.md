@@ -7,7 +7,7 @@ This repository contains code for [Visualizing Transformers for Breast Histopath
 > Transfer learning is a common way of achieving high performance on downstream tasks with limited data. Simultaneously, the success of vision transformers has opened up a wider range of image model options than previously available. In this report, we explore the application of transfer learning in the context of breast histopathology using state-of-the-art vision transformer models: ViT, BeiT, and CaiT. We focus on ways of presenting model prediction and behavior in human-interpretable ways, such that a pathologist could leverage this information to aid with their diagnosis. Through experiments, we show how attention maps and latent representations can be used to interpret model behavior.
 
 <p>
-    <img src="./1.png"/>
+    <img src="./1.png" stype="aline:center"/>
 </p>
 
 ## Quickstart
